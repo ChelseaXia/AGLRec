@@ -1,0 +1,17 @@
+# requirements.txt
+# 推荐系统 + 轻量 LLM 编码所需依赖
+
+torch>=1.10
+pandas
+numpy
+scikit-learn
+tqdm
+sentence-transformers
+scipy
+transformers>=4.30
+accelerate
+
+# 可选：用于部署或 notebook 可视化
+# fastapi
+# uvicorn
+# jupyter
